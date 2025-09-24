@@ -33,6 +33,11 @@ public class Activity7{
 	        // Print the number of courses found
 	        System.out.println("Number of courses available: " + courses.size());
 	    }
+	    @AfterTest
+	    public void afterMethod() {
+	        // Close the browser
+	        driver.close();
+	    }
 }
 	    	
 	    	
